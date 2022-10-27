@@ -10,11 +10,30 @@
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/destacados.css" rel="stylesheet">
     <link href="./assets/css/populares.css" rel="stylesheet">
+    <link href="./assets/css/responsivo.css" rel="stylesheet">
 </head>
 
 <body class="app">
 
-    <header class="encabezado">Encabezado</header>
+    <header class="encabezado">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link activo" href="#">
+                        <i class="fas fa-home"></i>
+                        Inicio
+                    </a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        Aplicaciones</a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-gamepad"></i>
+                        Juegos
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     
     <main class="contenido">
         <section class="destaques">
@@ -353,8 +372,7 @@
     </main>
 
 
-    <footer class="rodapie">rodapie </footer>
-
+    <footer class="footer">Todos los derechos reservados &copy Marcos2022 </footer>
 
     <script src="./assets/js/fontawesome.all.min.js"></script>
 </body>
